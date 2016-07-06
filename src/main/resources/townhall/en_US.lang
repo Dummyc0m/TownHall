@@ -1,0 +1,127 @@
+//Item
+item.townhall.adminStaff.name=§rTownHall Admin Staff
+item.townhall.adminStaff.lore1=§r§6Left/Right Click Blocks to Select
+item.townhall.adminStaff.lore2=§r§6Shift Left Click to Create Town
+item.townhall.adminStaff.lore3=§r§6Shift Right Click to Open Menu
+
+item.townhall.townStaff.name=§rTown Manager
+item.townhall.townStaff.lore1=§r§6Left Click to Outline the Current Chunk
+item.townhall.townStaff.lore2=§r§6Right Click to Open Menu
+
+item.townhall.messageStaff.name=§rMessage Sheet
+item.townhall.messageStaff.lore1=§r§6Accept/Reject Town Applications
+item.townhall.messageStaff.lore2=§r§6Right Click to Open Messages
+
+chat.townhall.enterTownRadius=[§bTownHall§r] Please move to the desired center and enter the radius of the town:
+chat.townhall.enterTownDisplayName=[§bTownHall§r] Please enter the title of the town:
+chat.townhall.repeatTownDisplayName=[§bTownHall§r] Make sure you are at the desired center and enter the name again to confirm:
+chat.townhall.incorrectDisplayName=[§bTownHall§r] The names do not match
+chat.townhall.unsupportedRadius=[§bTownHall§r] Invalid radius, creation cancelled
+chat.townhall.unsupportedDisplayName=[§bTownHall§r] Invalid or duplicate name, creation cancelled
+chat.townhall.unsupportedWorld=[§bTownHall§r] TownHall is not enabled in this world
+chat.townhall.unsupportedBlocks=[§bTownHall§r] The selection overlaps other towns
+chat.townhall.createSuccess=[§bTownHall§r] Successfully Created Your Town!
+chat.townhall.expandSuccess=[§bTownHall§r] Successfully Added This Chunk!
+chat.townhall.limitReached=[§bTownHall§r] Your have reached the limit for this town level, invite more players to level up
+chat.townhall.unexpectedError=[§bTownHall§r] Unexpected error: %s
+
+chat.townhall.townOccupied=[§bTownHall§r] This is not your town
+chat.townhall.townExists=[§bTownHall§r] You are already part of a town
+chat.townhall.insufficientBalance=[§bTownHall§r] You need %s emerald(s) for this action
+chat.townhall.collide=[§bTownHall§r] It is too close to other towns, try somewhere else?
+chat.townhall.notConnectedMultiple=[§bTownHall§r] Some blocks are not connected to others
+chat.townhall.notConnected=[§bTownHall§r] This block is not connected to others
+chat.townhall.leftTown=[§bTownHall§r] You have left your town
+
+chat.townhall.startCreation=[§bTownHall§r] Creating town, enter nothing to cancel in any step
+
+chat.townhall.setLocA=[§bTownHall§r] Setting location A to (%s, %s)
+chat.townhall.setLocB=[§bTownHall§r] Setting location B to (%s, %s)
+
+chat.townhall.enterRegion=§7[Entering %s]
+chat.townhall.exitRegion=§7[Exiting %s]
+chat.townhall.denyEntry=[§bTownHall§r] This town is protected
+chat.townhall.lockDownEntry=[§bTownHall§r] Owner enabled lock down, you may not enter
+chat.townhall.lockDownExit=[§bTownHall§r] Owner enabled lock down, you may not exit
+
+chat.townhall.enterMessageRecipient=[§bTownHall Messages§r] Please enter the message recipient:
+chat.townhall.enterMessageTitle=[§bTownHall Messages§r] Please enter the message title (limit: 20 characters):
+chat.townhall.enterMessageBody=[§bTownHall Messages§r] Please enter the message (limit: 140 characters):
+chat.townhall.enterApplicationTarget=[§bTownHall Messages§r] Please enter the name of the town:
+chat.townhall.messageSent=[§bTownHall Messages§r] Message sent
+chat.townhall.invalidMessageTitle=[§bTownHall Messages§r] The title exceeded the length limit
+chat.townhall.invalidMessageBody=[§bTownHall Messages§r] The message exceeded the length limit
+chat.townhall.invalidMessageRecipient=[§bTownHall Messages§r] The player does not exist
+chat.townhall.invalidApplicationTarget=[§bTownHall Messages§r] The town does not exist
+
+chat.townhall.acceptedPlayer=[§bTownHall§r] Accepted Player %s
+
+//TownAdmin Menu
+menu.townhall.townAdmin.title=Town Admin
+
+menu.townhall.townAdmin.infoButton.title=§rInfo
+menu.townhall.townAdmin.infoButton.lore.vacant=§r§6No Underlying Town
+menu.townhall.townAdmin.infoButton.lore.occupied=§r§6Underlying Town: %s
+
+menu.townhall.townAdmin.createButton.title=§rCreate
+menu.townhall.townAdmin.createButton.lore.vacant=§r§6New Town
+menu.townhall.townAdmin.createButton.lore.occupied=§r§6Town Exists
+
+menu.townhall.townAdmin.destroyButton.title=§rDestroy
+menu.townhall.townAdmin.destroyButton.lore.vacant=§r§6No Underlying Town
+menu.townhall.townAdmin.destroyButton.lore.occupied=§r§6Underlying Town: %s
+
+//Regular Town Menu
+menu.townhall.town.title=Town Menu
+
+menu.townhall.town.infoButton.title.vacant=§rNo Underlying Town
+menu.townhall.town.infoButton.title.occupied=§rTown Name: %s
+menu.townhall.town.infoButton.lore.owner=§r§6Owner: %s
+menu.townhall.town.infoButton.lore.memberCount=§r§6Members: %s
+
+menu.townhall.town.createButton.title.exist=§rCannot Create
+menu.townhall.town.createButton.title.create=§rCreate
+menu.townhall.town.createButton.title.owner=§rOwner Menu
+menu.townhall.town.createButton.title.occupied=§rCannot Create/Expand
+menu.townhall.town.createButton.title.unsupportedWorld=§rUnsupported World
+menu.townhall.town.createButton.title.leave=§rLeave Your Town
+menu.townhall.town.createButton.lore.exist=§r§6You Already Own a Town
+menu.townhall.town.createButton.lore.create=§r§6Click to Input a Radius and Name
+menu.townhall.town.createButton.lore.owner=§r§6Click to Open the Owner Menu
+menu.townhall.town.createButton.lore.occupied=§r§8You are not the Owner
+menu.townhall.town.createButton.lore.leave=§r§8Click to Leave Your Town
+
+menu.townhall.town.memberButton.title.exist=§rMembers of Your Town
+menu.townhall.town.memberButton.title.join=§rJoin Someone's Town
+menu.townhall.town.memberButton.title.occupied=§rMembers of This Town
+menu.townhall.town.memberButton.lore.exist.member=§r§6 - %s
+menu.townhall.town.memberButton.lore.exist.total=§r§6 ... %s Total Player(s)
+menu.townhall.town.memberButton.lore.join=§r§6Click to Input His/Her Name
+menu.townhall.town.memberButton.lore.occupied.member=§r§6 - %s
+menu.townhall.town.memberButton.lore.occupied.total=§r§6 ... %s Total Player(s)
+menu.townhall.town.memberButton.lore.occupied.join=§r§6Click Join This Town
+
+//Town Owner Menu
+menu.townhall.owner.title=Owner Menu
+menu.townhall.owner.expandButton=§rPurchase the Current Chunk (Connecting)
+menu.townhall.owner.expandSpecialButton=§rPurchase the Current Chunk (Non-Connecting)
+menu.townhall.owner.protectBuildButton=§rProtect:Build
+menu.townhall.owner.protectDestroyButton=§rProtect:Destroy
+menu.townhall.owner.protectInteractButton=§rProtect:Interact
+menu.townhall.owner.protectExplodeButton=§rProtect:Explosion
+menu.townhall.owner.protectPlayerButton=§rProtect:Player Damage
+menu.townhall.owner.protectEntityButton=§rProtect:Entity Damage
+menu.townhall.owner.protectEntryButton=§rProtect:Entry
+menu.townhall.owner.lockDownButton=§rRestrict:Lock Down
+menu.townhall.owner.protectCreatureSpawnButton=§rProtect:Creature Spawn
+menu.townhall.owner.protectButtons.lore.enabled=§r§6Enabled
+menu.townhall.owner.protectButtons.lore.disabled=§r§8Disabled
+
+//message
+menu.townhall.message.title=Message Menu
+menu.townhall.message.messageButton.lore.delete=§r§6Right Click to Delete Message
+menu.townhall.message.messageButton.lore.accept=§r§6Left Click to Accept Application
+menu.townhall.message.messageButton.lore.reject=§r§6Right Click to Reject Application
+menu.townhall.message.writeMessageButton.title=§rSend a Message
+menu.townhall.message.nextPageButton.title=§rNext Page
+menu.townhall.message.prevPageButton.title=§rPrevious Page

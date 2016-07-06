@@ -1,0 +1,20 @@
+name: ${project.artifactId}
+version: ${project.version}
+main: ${project.groupId}.${project.artifactId}.TownHallPlugin
+author: Dummyc0m
+prefix: TownHall
+
+commands:
+  townhall:
+    description: This is a demo command.
+    usage: /townhall
+    permission: townhall.command.townhall
+
+permissions:
+  townhall.*:
+    description: Permission for all TownHall commands
+    children:
+      townhall.command.townhall: true
+  townhall.command.townhall:
+    description: demo command
+    default: op
